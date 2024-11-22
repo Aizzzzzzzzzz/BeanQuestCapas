@@ -1,0 +1,403 @@
+/* Container1 */
+
+#fContainer {
+    background-color:#1e1e1e;
+    height: 870px;
+}
+
+#c1Heading1{
+    font-size: 50px;
+    font-family: Poppins;
+    letter-spacing: 5px;
+    color: rgb(255, 255, 255);
+}
+
+#pin{
+    color: rgb(214, 171, 0)
+}
+
+.bottomleft {
+    position: absolute;
+
+    font-size: 15px;
+    letter-spacing: 1px;
+
+    padding-right: 10px;
+    bottom: 13px;
+    left: 20px;
+
+    color: white;
+}.midcenter {
+    height: 100%;
+    width: 100%;
+
+    display: block;
+    text-align: center;
+    padding-top: 25%;
+    
+}
+
+.c1Parent{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+        "Image1 Image1 Image1 Image1"
+        "Image2 Image3 Image4 Image5"
+    ;
+
+    height: auto;
+    color: white;
+    gap: 20px;
+}
+
+#Image1, #Image2, #Image3, #Image4, #Image5{
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.849);
+    transition: transform 0.3s, box-shadow 0.3s;
+    width: auto;
+    height: auto;
+}
+
+#Image1:hover, #Image2:hover, #Image3:hover, #Image4:hover, #Image5:hover{
+    transform: scale(1.02);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+}
+
+#Image1{
+    grid-area: Image1;
+    background-image: url(MostVisited/Kafeology.jpg);
+    background-position: center;
+    background-size: cover;
+    
+    height: 500px;
+    position: relative;
+}
+
+#Image2{
+    grid-area: Image2;
+    background-image: url(MostVisited/Onyx.jpg);
+    background-position: center;
+    background-size: cover;
+    
+    height: 170px;
+    position: relative;
+}
+
+#Image3{
+    grid-area: Image3;
+    background-image: url(MostVisited/KhakuCafe.jpg);
+    background-position: center;
+    background-size: cover;
+    
+    height: 170px;
+    position: relative;
+}
+
+#Image4{
+    grid-area: Image4;
+    background-image: url(MostVisited/Kkopi.jpg);
+    background-position: center;
+    background-size: cover;
+    
+    height: 170px;
+    position: relative;
+}
+
+#Image5{
+    grid-area: Image5;
+    background-image: url(MostVisited/macchiato.png);
+    background-position: center;
+    background-size: cover;
+    
+    height: 170px;
+    position: relative;
+}
+
+
+
+/* /Container1 */
+
+
+/* Container2 */
+.container-fluid{
+    background-color: #131313;
+    height: 1145px;
+}
+
+#regionHeading{
+    font-family: 'porter-bold-demo', sans-serif;
+    background-color: #ffcc00;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    text-align: center;
+    color: rgb(48, 48, 48);
+    font-weight: bold;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+#c2Parent{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "c2Image1 c2Image2 c2Image3 c2Image4";
+
+    height: auto;
+    color: white;
+}
+
+#c2Image1{
+    grid-area: c2Image1; 
+    height: 400px;
+    position: relative;
+}#c2Image1::before{
+    content: '';
+    background-image: url(MostVisited/cafeEstella.png);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    filter: brightness(70%);
+}
+
+#c2Image2{
+    grid-area: c2Image2;
+    height: 400px;
+    position: relative;
+}#c2Image2::before{
+    content: '';
+    background-image: url(MostVisited/samCafe.JPG);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    filter: brightness(70%);
+}
+
+#c2Image3{
+    grid-area: c2Image3; 
+    height: 400px;
+    position: relative;
+}#c2Image3::before{
+    content: '';
+    background-image: url(MostVisited/bobsCafe.png);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    filter: brightness(70%);
+}
+
+#c2Image4{
+    grid-area: c2Image4;
+    height: 400px;
+    position: relative;
+}#c2Image4::before{
+    content: '';
+    background-image: url(MostVisited/frejieCafe.png);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    filter: brightness(70%);
+}
+
+#c2Parent2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "c2Image5 c2Image6 c2Image7 c2Image8";
+
+    height: auto;
+    color: white;
+}
+
+#c2Image5{
+    grid-area: c2Image5;
+    height: 400px;
+    position: relative;
+}#c2Image5::before{
+    content: '';
+    background-image: url(MostVisited/k&trixCafe.png);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    filter: brightness(70%);
+}
+
+#c2Image6{
+    grid-area: c2Image6;  
+    height: 400px;
+    position: relative;
+}#c2Image6::before{
+    content: '';
+    background-image: url(MostVisited/arkCafe.png);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    filter: brightness(70%);
+}
+
+#c2Image7{
+    grid-area: c2Image7; 
+    height: 400px;
+    position: relative;
+}#c2Image7::before{
+    content: '';
+    background-image: url(MostVisited/k-apeCafe.png);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    filter: brightness(70%);
+}
+
+#c2Image8{
+    grid-area: c2Image8;
+    height: 400px;
+    position: relative;
+}#c2Image8::before{
+    content: '';
+    background-image: url(MostVisited/rachelaCafe.png);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    filter: brightness(70%);
+}
+
+#button{
+    margin-top: 10px;
+    border-radius: 7px;
+}
+
+#c2Image1:hover, #c2Image2:hover, #c2Image3:hover, #c2Image4:hover,#c2Image5:hover, #c2Image6:hover, #c2Image7:hover, #c2Image8:hover{
+    transform: scale(1.02);
+    transition: 0.5s;
+    box-shadow: 0 8px 16px rgba(0.9, 0.9, 0.9, 0.9);
+}
+
+/* /Container2 */
+
+/* Container1 Responsiveness */
+@media(max-width:991px){
+    .c1Parent{
+        grid-template-columns: 2fr 1fr;
+        grid-template-areas:
+        "Image1 Image2"
+        "Image1 Image3"
+        "Image1 Image4"
+        "Image1 Image5"
+        ;
+    }
+
+    #Image1{
+        height: 750px;
+    }
+
+    #fContainer{
+        height: 930px;
+    }
+}
+@media(max-width:767px){
+    .c1Parent{
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "Image1"
+        "Image2"
+        "Image3"
+        "Image4"
+        "Image5"
+        ;
+    }
+
+    #Image1{
+        height: 650px;
+    }
+    #fContainer{
+        height: 1600px;
+    }
+
+    .midcenter{
+        padding: 60px;
+    }
+}
+@media(max-width:320px){
+    .midcenter{
+        padding-top: 18%;
+    }
+}
+/* Container1 Responsiveness */
+
+/* Container2 Responsiveness */
+@media(max-width:991px){
+    #c2Parent{
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        "c2Image1 c2Image2"
+        "c2Image3 c2Image4"
+        ;
+    }
+
+    #c2Parent2{
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        "c2Image5 c2Image6"
+        "c2Image7 c2Image8"
+        ;
+    }
+
+    .container-fluid{
+        height: 1950px;
+    }
+}
+
+@media(max-width:568px){
+    #c2Parent{
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "c2Image1"
+        "c2Image2"
+        "c2Image3"
+        "c2Image4"
+        ;
+    }
+
+    #c2Parent2{
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "c2Image5"
+        "c2Image6"
+        "c2Image7"
+        "c2Image8"
+        ;
+    }
+
+    .container-fluid{
+        height: 3550px;
+    }
+}
+
+@media(max-width:436px){
+    .container-fluid{
+        height: 3580px;
+    }
+}
+
+@media(max-width:375px){
+    .container-fluid{
+        height: 3660px;
+    }
+}
+/* /Container2 Responsiveness */

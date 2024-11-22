@@ -1,0 +1,353 @@
+/* Container1 */
+.container-fluid{
+    background-color: #201e1e;  
+    height: 2330px;
+}
+
+.c1Parent{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "element1 element2";
+    text-align: center;
+    padding: 20px;
+    bottom: 0px;
+}
+
+#c1Heading{
+    grid-area: element1;
+    padding-top: 30px;
+    font-size: 50px;
+    font-family: poppins;
+    letter-spacing: 5px;
+    color: rgb(255, 255, 255);
+}
+
+.c1Dropdown{
+    grid-area: element2;
+    justify-content: center;
+}#Dropdown{
+
+    text-align: center;
+
+    font-size: 20px;
+    width: 80px;
+    margin: 4px;
+    
+    color: rgb(255, 255, 255);
+    background-color: #131313;
+    
+    border-style: none;
+    border-radius: 5px;
+}
+
+/* /Container1 */
+
+/* Container2 */
+.c2Parent{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+        "imageCard1 imageCard2 imageCard3"
+        "imageCard4 imageCard5 imageCard6"
+        "imageCard7 imageCard8 imageCard9"
+    ;
+    height: auto;
+    gap: 20px;
+}
+
+.details{
+    padding: 25px;
+    padding-top: 20px;
+    text-align: left;
+}.details h6{
+    color: rgba(0, 0, 0, 0.856);
+}.details p{
+    height: auto;
+}.more{
+    text-decoration: none;
+    color: #1e324e;
+}#pin{
+    color: #720808;
+}
+
+.scroll{
+    width: auto;
+    height: 220px;
+    overflow-y: scroll;
+}
+
+#imageCard1{
+    grid-area: imageCard1;
+    background-color:#a77926;
+    border-radius: 10px;
+    position: relative;
+} .image1{
+    width: 100%;
+    height:340px;
+    background-image: url(AboutUs/PRES.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+    border-top-left-radius:10px;
+    border-top-right-radius: 10px;
+}
+h4{
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+    text-transform: inherit;
+
+}
+h6{
+    text-align: center;
+}
+p{
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: solid;
+    text-transform: inherit;
+    text-align: center;
+}
+
+#imageCard2{
+    grid-area: imageCard2;
+    background-color:#a77926;
+    border-radius: 10px;
+    position: relative;
+}.image2{
+    width: 100%;
+    height:340px;
+    background-image: url(AboutUs/MARK.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+    border-top-left-radius:10px;
+    border-top-right-radius: 10px;
+}
+
+#imageCard3{
+    grid-area: imageCard3;
+    background-color:#a77926;
+    border-radius: 10px;
+    position: relative;
+}.image3{
+    width: 100%;
+    height:340px;
+    background-image: url(AboutUs/TRISHA.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+    border-top-left-radius:10px;
+    border-top-right-radius: 10px;
+}
+
+#imageCard4{
+    grid-area: imageCard4;
+    background-color:#a77926;
+    border-radius: 10px;
+}.image4{
+    width: 100%;
+    height:340px;
+    background-image: url(AboutUs/CLARK.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+    border-top-left-radius:10px;
+    border-top-right-radius: 10px;
+}
+
+#imageCard5{
+    grid-area: imageCard5;
+    background-color:#a77926;
+    border-radius: 10px;
+}.image5{
+    width: 100%;
+    height:340px;
+    background-image: url(AboutUs/JAY.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+    border-top-left-radius:10px;
+    border-top-right-radius: 10px;
+}
+
+#imageCard6{
+    grid-area: imageCard6;
+    background-color:#a77926;
+    border-radius: 10px;
+}.image6{
+    width: 100%;
+    height:340px;
+    background-image: url(AboutUs/JHUL.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+    border-top-left-radius:10px;
+    border-top-right-radius: 10px;
+}
+
+#imageCard7{
+    grid-area: imageCard7;
+    background-color:#a77926;
+    border-radius: 10px;
+}.image7{
+    width: 100%;
+    height:340px;
+    background-image: url(AboutUs/CRIZEL.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+    border-top-left-radius:10px;
+    border-top-right-radius: 10px;
+}
+#imageCard8{
+    grid-area: imageCard8;
+    background-color:#a77926;
+    border-radius: 10px;
+}.image8{
+    width: 100%;
+    height:340px;
+    background-image: url(AboutUs/KARL.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+    border-top-left-radius:10px;
+    border-top-right-radius: 10px;
+}
+
+
+
+#imageCard1:hover, #imageCard2:hover, #imageCard3:hover, #imageCard4:hover, #imageCard5:hover, #imageCard6:hover, #imageCard7:hover, #imageCard8:hover, #imageCard9:hover{
+    transform: scale(1.02);
+    transition: 0.5s;
+    box-shadow: 0 8px 16px rgba(5, 5, 5, 0.9);
+}
+/* /Container2 */
+
+/* Container1 Responsiveness */
+@media(max-width:1199px){
+    .c1Parent{
+        margin-top: -10px;
+    }
+
+    #c1Heading{
+        text-align: left;
+    }#c1Heading h1{
+        font-size: 40px;
+    }
+
+    .c1Dropdown .image img{
+        margin-top: 36px;
+    }
+}
+@media(max-width:991px){
+    .image{
+        padding-top: 10px;
+    }
+}
+@media(max-width:767px){
+    .c1Parent{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .c1Dropdown{
+        text-align: right;
+        padding-right: 0;
+    }
+
+    .image{
+        padding-right: 15px;
+        width:300px;
+    }
+}
+@media(max-width:563px){
+    .c1Parent{
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "element1"
+        "element2";
+    }
+
+    #c1Heading{
+        text-align: center;
+        margin-bottom: -50px;
+    }
+    .c1Dropdown{
+        margin-top: 0;
+        text-align: center;
+    }
+    
+    .image{
+        text-align: left;
+        margin-left: 44%;
+        width:auto;
+
+    }
+}
+/* /Container1 Responsiveness */
+
+/* Container2 Responsiveness */
+@media(max-width:1199px){
+
+    .container-fluid{
+        height: 3480px;
+    }
+
+    .c2Parent{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+        "imageCard1 imageCard1 imageCard2 imageCard2"
+        "imageCard3 imageCard3 imageCard4 imageCard4"
+        "imageCard5 imageCard5 imageCard6 imageCard6"
+        "imageCard7 imageCard7 imageCard8 imageCard8"
+        "imageCard9 imageCard9 imageCard10 imageCard10";
+    }
+}
+@media(max-width:991px){
+    #imageCard1, #imageCard2, #imageCard3, #imageCard4, #imageCard5,#imageCard6, #imageCard7, #imageCard8, #imageCard9{
+        height: auto;
+        padding-bottom: 5px;
+    }
+
+    .container-fluid{
+        height: 3830px;
+    }
+}
+@media(max-width:767px){
+    .container-fluid{
+        height: auto;
+    }
+
+    .c2Parent{
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+        "imageCard1 imageCard1"
+        "imageCard2 imageCard2"
+        "imageCard3 imageCard3"
+        "imageCard4 imageCard4"
+        "imageCard5 imageCard5"
+        "imageCard6 imageCard6"
+        "imageCard7 imageCard7"
+        "imageCard8 imageCard8"
+        "imageCard9 imageCard9"
+        "imageCard10 imageCard10";
+    }
+
+    #imageCard1, #imageCard2, #imageCard3, #imageCard4, #imageCard5,#imageCard6, #imageCard7, #imageCard8, #imageCard9{
+        height: auto;
+    }
+
+    .button{
+        padding-bottom: 40px;
+    }
+
+}
+@media(max-width:375px){
+    #imageCard1, #imageCard2, #imageCard3, #imageCard4, #imageCard5,#imageCard6, #imageCard7, #imageCard8, #imageCard9{
+        height: auto;
+        padding-bottom: -2px;
+    }
+}
+
+/* /Container2 Responsiveness */

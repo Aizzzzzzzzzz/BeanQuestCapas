@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <title>BeanQuestCapas</title>
+    <link rel="stylesheet" href="mostVisited.css">
+    <link rel="icon" type="Image/x-icon" href="bqIcon.png">
+    <link rel="stylesheet" href="footer.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+</head>
+<body>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    
+    <link href="https://www.dafontfree.net/embed/cG9ydGVyLWJvbGQtZGVtbyZkYXRhLzIwL3AvOTg5MjEvUG9ydGVyX0JvbGQudHRm" rel="stylesheet" type="text/css"/>
+
+    <!-- Navigation Bar 3.0 -->
+    <div class="container-{breakpoint} bg-black text-white">
+        <div class="container">
+
+            <nav class="navbar navbar-expand-md bg-black navbar-dark">
+
+                <a href="index.html" class="navbar-brand">
+                    <img src="bqLogo.png" alt="idea" style="width: 70px;">
+                </a>
+    
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#coll">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+    
+                <div class="collapse navbar-collapse" id="coll" style="justify-content: right;">
+                    <ul class="navbar-nav" id="navElement" style="gap: 16px; font-size: 15px; padding-top: 3px;">
+                        
+                        <li class="navbar-item">
+                            <a href="index.html" class="nav-link">Home</a>
+                        </li>
+    
+                        <li class="navbar-item">
+                            <a href="mostVisited.html" class="nav-link">Most Visited</a>
+                        </li>
+    
+                        <li class="navbar-item">
+                            <a href="cafeList.html" class="nav-link">Other List of Cafè</a>
+                        </li>
+    
+                        <li class="navbar-item">
+                            <a href="aboutUs.html" class="nav-link">About Us</a>
+                        </li>
+    
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+    </div>
+    <!-- /Navigation Bar 3.0 -->
+    
+    <!-- Container 1 -->
+    <div class="container-fluid" id="fContainer">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col">
+                    <div class="col p-4 mt-3" id="c1Heading1"><h1>Most <b style="color: #ffcc00;">Visited</b></h1></div>
+                </div>
+            </div>
+
+            <div class="c1Parent">
+
+                <div id="Image1">
+                    
+                    <div class="bottomleft">
+                        <h3>Kafèology</h3>
+                        <p>San Nicolas Sto. Domingo 1st Capas, Tarlac.
+                            <i class="bi bi-geo-alt-fill" id="pin"></i>
+                            
+                            <p> Kafèology is a popular café located in the San Nicholas Sto. Domingo 1st, Capas, Tarlac, known for its cozy atmosphere and high-quality coffee. The café offers a variety of drinks, from smooth lattes to strong espressos, along with fresh pastries like croissants and muffins. With its warm, inviting interior and friendly baristas, it’s a favorite spot for locals to relax, work, or catch up with friends. The combination of great coffee, tasty snacks, and a comfortable, laid-back vibe keeps customers coming back time and time again. </p>
+                            <a href="" style="color: #e9e9e9;"></a>
+                        </p>
+                    </div>
+
+                </div>
+
+                <div id="Image2">
+
+                    <div class="midcenter">
+                        <h4>Onyx Street Cafe</h4>
+                        <p>
+                            <i class="bi bi-geo-alt-fill" id="pin"></i>
+                            Villa De Sto. Rosario, Capas, Tarlac.
+                        </p>
+                    </div>
+
+                </div>
+                <div id="Image3">
+
+                    <div class="midcenter">
+                        <h4>Khaku Cafè</h4>
+                        <p>
+                            <i class="bi bi-geo-alt-fill" id="pin"></i>
+                            Cristorey, Capas, Tarlac.
+                        </p>
+                    </div>
+
+                </div>
+                <div id="Image4">
+                    <div class="midcenter">
+                        <h4>Kkopi</h4>
+                        <p>
+                            <i class="bi bi-geo-alt-fill" id="pin"></i>
+                           Sto. Rosario, Capas, Tarlac.
+                        </p>
+                    </div>
+                </div>
+                <div id="Image5">
+                    <div class="midcenter">
+                        <h4>Macchiato</h4>
+                        <p>
+                            <i class="bi bi-geo-alt-fill" id="pin"></i>
+                            Pineda St. Capas, Tarlac. 
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- <div style="text-align: center; margin-top: 20px;">
+                <button type="button" class="btn btn-warning" id="buttons">Load More</button>
+            </div> -->
+            
+
+        </div>
+    </div>
+    <!-- /Container 1 -->
+    
+    <!-- Container 2 -->
+    <div class="container-fluid">
+        <div class="container">
+
+            <div class="row">
+                <div class="col">
+                    <div class="col p-4 mt-3" id="c1Heading1" style="text-align: center;"><h1>More <b style="color: #ffcc00;">Cafè</b></h1></div>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <span style="width: auto; margin-left: 4px;">
+                    <H2 id="regionHeading">Capas</H2>
+                </span>
+            </div>
+
+            <div id="c2Parent">
+                
+                <div id="c2Image1">
+                    <div class="bottomleft">
+                        <h3>Cafè Estella</h3>
+                        <p>
+                             <i class="bi bi-geo-alt-fill" id="pin"></i>
+                            Sto. Rosario Street, Capas, Tarlac.
+                        </p>
+                    </div>
+                </div>
+
+                <div id="c2Image2">
+                    <div class="bottomleft">
+                        <h3>Samsonville Cafè</h3>
+                        <p>
+                            <i class="bi bi-geo-alt-fill" id="pin"></i>
+                           Sto. Rosario, Capas, Tarlac.
+                        </p>
+                    </div>
+                </div>
+
+                <div id="c2Image3">
+                    <div class="bottomleft">
+                        <h3>Bob's Cafè</h3>
+                        <p>
+                            <i class="bi bi-geo-alt-fill" id="pin"></i>
+                           Sto. Rosario, Capas, Tarlac.
+                        </p>
+                    </div>
+                </div>
+
+                <div id="c2Image4">
+                    <div class="bottomleft">
+                        <h3>Frejie's Cafè</h3>
+                        <p>
+                            <i class="bi bi-geo-alt-fill" id="pin"></i>
+                            Sto. Rosario, Capas, Tarlac.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <br>
+            
+            <div class="row">
+                <span style="width: auto; margin-left: 4px;">
+                    <H2 id="regionHeading">Navy</H2>
+                </span>
+            </div>
+
+            <div id="c2Parent2">
+
+                <div id="c2Image5">
+                    <div class="bottomleft">
+                        <h3>K&Trix Cafè</h3>
+                        <p>
+                            <i class="bi bi-geo-alt-fill" id="pin"></i>
+                            Block 41, Lot, 15 Lucero, Capas, 2315 Tarlac
+                        </p>
+                    </div>
+                </div>
+
+                <div id="c2Image6">
+                    <div class="bottomleft">
+                        <h3>Ark Cafè</h3>
+                        <p>
+                            <i class="bi bi-geo-alt-fill" id="pin"></i>
+                            Petron Gasoline Station, Capas, 2315 Tarlac
+
+                        </p>
+                    </div>
+                </div>
+
+                <div id="c2Image7">
+                    <div class="bottomleft">
+                        <h3>K-Ape Cafè</h3>
+                        <p>
+                            <i class="bi bi-geo-alt-fill" id="pin"></i>
+                            Block 70 Lot 29, Capas, 2315 Tarlac
+                        </p>
+                    </div>
+                </div>
+
+                <div id="c2Image8">
+                    <div class="bottomleft">
+                        <h3>Rachela Cafè</h3>
+                        <p>
+                            <i class="bi bi-geo-alt-fill" id="pin"></i>
+                            Stall #33 blk 35 phase 1, Capas, 2315 Tarlac
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+            
+    </div>
+
+    <!-- /Container 2 -->
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container text-white">
+
+            <div class="footerParent">
+                <div class="footerChild1">
+                    <h5 class="Header5">BeanQuestCapas</h5>
+                    <p>At BeanQuest, we aim to be your trusted companion in uncovering the finest café destinations in Capas, where the best brews, cozy vibes, and stunning views come together to create worthy coffee experiences.</p>
+                </div>
+
+                <div class="footerChild2">
+                    <h5 class="Header5">Community</h5>
+                    <p>Blog</p>
+                    <p>Ideas</p>
+                    <p>Developers</p>
+                </div>
+
+                <div class="footerChild3">
+                    <h5 class="Header5">Contact</h5>
+                    <p><i class="bi bi-telephone-forward-fill"></i>  +63 9103778659</p>
+                    <p><i class="bi bi-envelope"></i> beanquestcapas@gmail.com</p>
+                </div>
+
+                <div class="footerChild4">
+                    <h5 class="Header5">Follow Us</h5>
+                    <div class="social">
+                        <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+                        <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+                        <li><a href="#"><i class="bi bi-twitter"></i></a></li>
+                        <li><a href="#"><i class="bi bi-github"></i></a></li>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+    </footer>
+    <!-- /Footer -->
+
+</body>
+</html>

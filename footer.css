@@ -1,0 +1,116 @@
+@font-face{
+    font-family: fsAlbert;
+    src:url(fsAlbert.otf);
+}
+
+@font-face {
+    font-family: fsBebas;
+    src: url(fsBebasNeue-Regular.otf);
+}
+
+/* Footer */
+
+footer{
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 35px;
+    background-color: rgb(0, 0, 0);
+}
+
+.footerParent{
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr 1fr;
+    grid-template-areas:
+    "footerChild1 footerChild2 footerChild3 footerChild4";
+    gap: 25px;
+}
+
+.social{
+    display: flex;
+    flex-direction: row;
+    gap: 17px;
+}.social li{
+    list-style: none;
+}.social li a{
+    font-size: 21px;
+    color: white;
+}
+
+.footerChild1{
+    grid-area: footerChild1;
+}.footerChild2{
+    grid-area: footerChild2;
+}.footerChild3{
+    grid-area: footerChild3;
+}.footerChild4{
+    grid-area: footerChild4;
+}
+
+.Header5{
+    font-weight: 150px;
+    letter-spacing: 1px;
+    position: relative;
+    margin-bottom: 17px;
+}.Header5::before{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    background-color: #ffcc00;
+    height: 3px;
+    width: 50px;
+}
+
+.footerChild1 p, .footerChild2 p, .footerChild3 p{
+    color: rgb(175, 175, 175);
+    margin-bottom: 5px;
+}.footerChild2 p:hover, .footerChild3 p:hover{
+    color: rgb(252, 252, 252);
+    padding-left: 10px;
+    transition: 0.2s;
+}
+
+.footerChild4 li a{
+    display: inline-block;
+    color: white;
+    width: 32px;
+    height: 45;
+    background-color: rgb(53, 53, 53);
+    text-align: center;
+    border-radius: 50%;
+}.footerChild4 li a:hover{
+    color: black;
+    background-color:rgb(255, 255, 255);
+    transition: .8s;
+    
+}
+
+/* /Footer */
+
+/* Footer Responsiveness */
+@media(max-width: 991px) {
+    .footerParent{
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+        "footerChild1 footerChild2"
+        "footerChild3 footerChild4";
+        gap: 20px;
+    }
+}
+
+@media(max-width: 522px) {
+    .footerParent{
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "footerChild1"
+        "footerChild2"
+        "footerChild3"
+        "footerChild4";
+        gap: 20px;
+    }
+}
+/* /Footer Responsiveness */
+
+@media (max-width: 768px) {
+    
+}
